@@ -1,0 +1,23 @@
+@use '../custom' as *;
+
+.menu {
+    padding: 1.25rem 0;
+
+    li {
+        padding: 0 0.9rem;
+    }
+    .nav-link {
+        color: $white;
+        font-weight: 400;
+        font-size: 20px;
+
+        &:hover{
+        color: $green-800;
+        }
+
+        &.active,
+        &.show {
+            color: $green-800;
+        }
+    }
+}
