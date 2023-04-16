@@ -11851,13 +11851,17 @@ textarea.form-control-lg {
   }
 }
 .btn-rounded {
-  display: none;
   background-color: #7ccfae;
   padding: 0.6rem 3rem;
   border: none;
   border-radius: 16px;
   color: #fff;
   font-weight: 700;
+}
+@media (max-width: 991.98px) {
+  .btn-rounded {
+    display: none;
+  }
 }
 .btn-rounded:hover {
   background-color: #007f84;
