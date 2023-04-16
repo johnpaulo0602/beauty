@@ -1,0 +1,28 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+/* Exibe a imagem para desktop e oculta para mobile*/
+.carousel-item .desktop {
+    display: block;
+    @include media-breakpoint-down(lg) {
+        display: none !important;
+    }
+}
+
+/* Oculta a imagem para desktop e mostra para mobile*/
+.carousel-item .mobile {
+    display: none !important;
+    @include media-breakpoint-down(lg) {
+        display: block !important;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 16px ;
+    left: 20px;
+    padding-top: $carousel-caption-padding-y;
+    padding-bottom: $carousel-caption-padding-y;
+    color: $carousel-caption-color;
+    text-align: start;
+  }

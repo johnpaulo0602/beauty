@@ -1,6 +1,11 @@
 @use '../custom' as *;
+@use '../components/mixins' as *;
 
 .btn-rounded{
+    @include media-breakpoint-down(sm md) {
+        display: none;
+    }
+
     background-color: $secondary;
     padding: 0.6rem 3rem;
     border: none;

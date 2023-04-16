@@ -11851,6 +11851,7 @@ textarea.form-control-lg {
   }
 }
 .btn-rounded {
+  display: none;
   background-color: #7ccfae;
   padding: 0.6rem 3rem;
   border: none;
@@ -11862,9 +11863,6 @@ textarea.form-control-lg {
   background-color: #007f84;
 }
 
-.menu {
-  padding: 1.25rem 0;
-}
 .menu li {
   padding: 0 0.9rem;
 }
@@ -11878,6 +11876,36 @@ textarea.form-control-lg {
 }
 .menu .nav-link.active, .menu .nav-link.show {
   color: #004042;
+}
+
+/* Exibe a imagem para desktop e oculta para mobile*/
+.carousel-item .desktop {
+  display: block;
+}
+@media (max-width: 991.98px) {
+  .carousel-item .desktop {
+    display: none !important;
+  }
+}
+
+/* Oculta a imagem para desktop e mostra para mobile*/
+.carousel-item .mobile {
+  display: none !important;
+}
+@media (max-width: 991.98px) {
+  .carousel-item .mobile {
+    display: block !important;
+  }
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: start;
 }
 
 /*# sourceMappingURL=style.css.map */
