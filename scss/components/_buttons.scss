@@ -28,3 +28,16 @@
         color: $white;
     }
 }
+
+.btn-secondary {
+    padding: 0.6rem 3rem;
+    background: $secondary;
+    font-weight: 700;
+    color: $white;
+    border: none;
+
+    &:hover {
+        background-color: #00454C;
+        color: $white;
+    }
+}

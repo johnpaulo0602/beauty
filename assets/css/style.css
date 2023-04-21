@@ -11877,6 +11877,18 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.btn-secondary {
+  padding: 0.6rem 3rem;
+  background: #7ccfae;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+}
+.btn-secondary:hover {
+  background-color: #00454C;
+  color: #fff;
+}
+
 .title h5 {
   margin-top: 64px;
   text-align: center;
