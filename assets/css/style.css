@@ -11853,8 +11853,6 @@ textarea.form-control-lg {
 .btn-rounded {
   background-color: #7ccfae;
   padding: 0.6rem 3rem;
-  border: none;
-  border-radius: 16px;
   color: #fff;
   font-weight: 700;
 }
@@ -11864,7 +11862,51 @@ textarea.form-control-lg {
   }
 }
 .btn-rounded:hover {
-  background-color: #007f84;
+  background-color: #00454C;
+  color: #fff;
+}
+
+.btn-card {
+  padding: 0.6rem 3rem;
+  background: #009fa5;
+  font-weight: 700;
+  color: #fff;
+}
+.btn-card:hover {
+  background-color: #00454C;
+  color: #fff;
+}
+
+.title h5 {
+  margin-top: 64px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.14em;
+  color: #00454C;
+}
+.title h3 {
+  margin-top: 4px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #00442B;
+}
+
+.card-body .card-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #00442B;
+  padding: 1rem 0 0.3rem 0;
+}
+.card-body .card-subtitle {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #00442B;
+  padding: 0.5rem 0 2rem 0;
 }
 
 .menu li {
@@ -11910,6 +11952,19 @@ textarea.form-control-lg {
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: start;
+}
+
+.card {
+  transition: 0.5s;
+  cursor: pointer;
+  background: #E7ECF4;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 16px;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */

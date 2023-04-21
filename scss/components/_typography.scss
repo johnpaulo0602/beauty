@@ -1,0 +1,37 @@
+.title {
+    h5 {
+        margin-top: 64px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.14em;
+        color: #00454C;
+    }
+
+    h3 {
+        margin-top: 4px;
+        margin-bottom: 18px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #00442B;
+    }
+}
+
+.card-body {
+    .card-title {
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #00442B;
+        padding: 1rem 0 0.3rem 0;
+    }
+
+    .card-subtitle {
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: #00442B;
+        padding: 0.5rem 0 2rem 0;
+    }
+}

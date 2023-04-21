@@ -8,12 +8,23 @@
 
     background-color: $secondary;
     padding: 0.6rem 3rem;
-    border: none;
-    border-radius: 16px;
     color: $white;
     font-weight: 700;
-
+    
     &:hover{
-        background-color: $green-600;
+        background-color: #00454C;
+        color: $white;
+    }
+}
+
+.btn-card {
+    padding: 0.6rem 3rem;
+    background: $primary;
+    font-weight: 700;
+    color: $white;
+
+    &:hover {
+        background-color: #00454C;
+        color: $white;
     }
 }
