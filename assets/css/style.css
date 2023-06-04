@@ -12016,4 +12016,45 @@ textarea.form-control-lg {
   color: #FFFFFF;
 }
 
+.footer .footerList {
+  list-style: none;
+  padding: 0;
+}
+.footer .footerList a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer .footerList a:hover {
+  color: #004042;
+}
+.footer .footerRedesSociais {
+  list-style: none;
+  padding: 0;
+}
+.footer .footerRedesSociais i {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #231F20;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.footer .footerRedesSociais i:hover {
+  color: #fff;
+  transform: translateY(-4px);
+}
+.footer hr {
+  width: 940px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+.footer span {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */

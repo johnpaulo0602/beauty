@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="John Paulo da Silva Paiva" />
-    <title>Bootstrap</title>
+    <meta name="description" content="Clínica de estética Beauty">
+    <meta name="keywords" content="estética, beleza, clinica">
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <title>Beauty</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/67d1d8b60a.js" crossorigin="anonymous"></script>
+    <script defer src="assets/js/bootstrap.bundle.js"></script>
 </head>
 
 <body>
@@ -179,12 +183,10 @@
                     </div>
                     <div class="row d-flex align-items-stretch">
                         <div class="col-md-6 video-container">
-                            <iframe 
-                            src="https://www.youtube.com/embed/y27G3qxFAFY" 
-                            title="YouTube video player" 
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
+                            <iframe src="https://www.youtube.com/embed/y27G3qxFAFY" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
                             </iframe>
                         </div>
                         <div class="d-flex flex-column justify-content-between col-md-6">
@@ -210,7 +212,7 @@
                             </div>
                         </div>
                         <div class="text-center my-5">
-                            <div class="btn btn-secondary col-3">Agendar Agora!</div>
+                            <div class="btn btn-secondary col-md-3">Agendar Agora!</div>
                         </div>
                     </div>
                 </div>
@@ -218,6 +220,7 @@
         </section>
         <!-- Final Seção 3 | Diferenciais -->
 
+        <!-- Inicio Seção 4 | Blog -->
         <section>
             <div class="container">
                 <div class="title mb-5">
@@ -231,9 +234,11 @@
                                 class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">Kobido: a massagem facial que previne rugas e flacidez</h6>
-                                <p class="card-text">Já pensou em massagear os próprios ombros durante a rotina de skincare? O Kobido, massagem facial japonesa, é uma técnica tradicional que combina ativação da circulação sanguínea e drenagem.
-                                <span class="saibaMais">
-                                    <a href="#">saiba mais...</a>
+                                <p class="card-text">Já pensou em massagear os próprios ombros durante a rotina de
+                                    skincare? O Kobido, massagem facial japonesa, é uma técnica tradicional que combina
+                                    ativação da circulação sanguínea e drenagem.
+                                    <span class="saibaMais">
+                                        <a href="#">saiba mais...</a>
                                 </p>
                             </div>
                         </div>
@@ -244,9 +249,11 @@
                                 class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">Guia Prático de como aproveitar ao máximo a sua consulta!</h6>
-                                <p class="card-text">Você já se sentiu ansiosa antes daquela consulta super importante com o seu médico? Isso é muito normal! Afinal, é durante a consulta que o médico decide os detalhes sobre o seu procedimento dos sonhos.
-                                <span class="saibaMais">
-                                    <a href="#">saiba mais...</a>
+                                <p class="card-text">Você já se sentiu ansiosa antes daquela consulta super importante
+                                    com o seu médico? Isso é muito normal! Afinal, é durante a consulta que o médico
+                                    decide os detalhes sobre o seu procedimento dos sonhos.
+                                    <span class="saibaMais">
+                                        <a href="#">saiba mais...</a>
                                 </p>
                             </div>
                         </div>
@@ -257,9 +264,11 @@
                                 class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">Tenho acne. Posso fazer limpeza de pele?</h6>
-                                <p class="card-text">Quem tem acne, sabe: essa coisinha chata e dolorida afeta demais a autoestima. Mesmo lavando o rosto e cuidando da alimentação, ela pode surgir. E aí, o que fazer? Limpeza de pele, pode? Não vai piorar a situação?
-                                <span class="saibaMais">
-                                    <a href="#">saiba mais...</a>
+                                <p class="card-text">Quem tem acne, sabe: essa coisinha chata e dolorida afeta demais a
+                                    autoestima. Mesmo lavando o rosto e cuidando da alimentação, ela pode surgir. E aí,
+                                    o que fazer? Limpeza de pele, pode? Não vai piorar a situação?
+                                    <span class="saibaMais">
+                                        <a href="#">saiba mais...</a>
                                 </p>
                             </div>
                         </div>
@@ -267,11 +276,47 @@
                 </div>
             </div>
         </section>
+        <!-- Final Seção 4 | Blog -->
     </main>
+    <footer class="bg-primary py-5">
+        <div class="container footer">
+            <div class="d-flex justify-content-center">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.svg" alt="logo imagem">
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <ul class="d-flex mt-4 footerList gap-4 flex-column flex-md-row text-center">
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center">
+                <ul class="d-flex mt-4 footerRedesSociais gap-4">
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-whatsapp"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-linkedin-in"></i></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center">
+                <hr/>
+            </div>
+            <div class="d-flex justify-content-center">
+                <span>Copyright © <span id="ano-atual"></span> BEAUTY</span>
+            </div>
+        </div>
+    </footer>
 
-
-
-    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script>
+        const anoAtual = new Date().getFullYear();
+        document.getElementById('ano-atual').innerHTML = anoAtual;
+    </script>
+    
 </body>
 
 </html>

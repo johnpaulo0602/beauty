@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/agendamento.css">
+    <script defer src="./assets/js/steps.js"></script>
+</head>
+
+<body>
+    <main>
+        <form class="agForm" onsubmit="return false;">
+            <!-- Barra de progresso -->
+            <div class="progressbar">
+                <div class="progress"></div>
+                <div class="progress" id="progress"></div>
+
+                <div class="progress-ball progress-ball-active" id="progressBall1" data-title="Agenda">1</div>
+                <div class="progress-ball" id="progressBall2" data-title="Confirmação">2</div>
+                <div class="progress-ball" id="progressBall3" data-title="Fim">3</div>
+            </div>
+
+            <!-- Passos do agendamento -->
+
+            <div class="form-group">
+                <label class="agLabel">O que você gostaria de agendar?</label>
+                <select id="listProcedimentos" required>
+                    <option value=""></option>
+                    <option value="Peeling">Peeling</option>
+                    <option value="Botox">Botox</option>
+                    <option value="Harmonização facial">Harmonização facial</option>
+                </select>
+                <label class="agLabel">Escolha o dia:</label>
+                <input type="date" id="dataAgendamento" required />
+                <label class="agLabel">Escolha a hora:</label>
+                <input type="time" id="horaAgendamento" required />
+                <button class="btn btn-agendar" id="btnAgendar" onclick="confirm1 ()">Agendar</button>
+            </div>
+
+            <div class="confirm-group">
+                <h3>Revise seu agendamento</h3>
+                <h5 id="procedimentoConfirm"></h5>
+                <h5 id="diaConfirm"></h5>
+                <h5 id="horaConfirm"></h5>
+                <div class="group-btn">
+                    <button class="btn btn-back" id="btnBack1" onclick="back1 ()">Voltar</button>
+                    <button class="btn btn-next" id="btnNext" onclick="confirm2 ()">Confirmar</button>
+                </div>
+            </div>
+
+            <div class="final-group">
+                <i class="fa-regular fa-circle-check"></i>
+                <h3>Agendamento feito com sucesso!</h3>
+                <div class="group-btn">
+                    <button class="btn btn-back" id="btnBack2" onclick="back2 ()">Novo agendamento</button>
+                    <button class="btn btn-next">Meus agendamentos</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
